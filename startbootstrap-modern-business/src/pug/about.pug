@@ -1,0 +1,99 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='About BotForgeAI - AI-powered automation and web development solutions')
+        meta(name='author', content='BotForgeAI')
+
+        title About Us - BotForgeAI
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Header
+            header.py-5
+                .container.px-5
+                    .row.justify-content-center
+                        .col-lg-8.col-xxl-6
+                            .text-center.my-5
+                                h1.fw-bolder.mb-3 Empowering Businesses with AI Automation and Web Solutions
+                                p.lead.fw-normal.text-muted.mb-4 BotForgeAI is dedicated to transforming the way businesses operate by leveraging the power of AI and workflow automation. Our mission is to help you automate, engage, and grow.
+                                a.btn.btn-primary.btn-lg(href='#scroll-target') Learn More About Us
+
+            // About section one
+            section.py-5.bg-light#scroll-target
+                .container.px-5.my-5
+
+                    .row.gx-5.align-items-center
+                        .col-lg-6
+                            img.img-fluid.rounded.mb-5.mb-lg-0(src='assets/about_first_image.jpg', alt='BotForgeAI')
+                        .col-lg-6
+                            h2.fw-bolder Our Story
+                            p.lead.fw-normal.text-muted.mb-0 Founded in 2024, BotForgeAI was created by a team passionate about making advanced AI accessible to every business. We believe in empowering organizations to deliver smarter customer experiences and streamline operations through intelligent automation.
+
+            // About section two
+            section.py-5
+                .container.px-5.my-5
+
+                    .row.gx-5.align-items-center
+                        .col-lg-6.order-first.order-lg-last
+                            img.img-fluid.rounded.mb-5.mb-lg-0(src='assets/about_second_image.jpg', alt='BotForgeAI Vision')
+                        .col-lg-6
+                            h2.fw-bolder Growth &amp; Vision
+                            p.lead.fw-normal.text-muted.mb-0 Since our inception, we've helped companies across industries automate workflows, improve customer engagement, and unlock new growth opportunities. Our vision is to be the leading provider of AI-powered business solutions worldwide.
+
+            // About section three
+            section.py-5.bg-light#scroll-target
+                .container.px-5.my-5
+                    .row.gx-5.align-items-center
+                        .col-lg-6.order-first.order-lg-last
+                            img.img-fluid.rounded.mb-5.mb-lg-0(src='assets/about_third_image.jpg', alt='BotForgeAI Impact')
+                        .col-lg-6
+                            h2.fw-bolder Impact &amp; Commitment
+                            p.lead.fw-normal.text-muted.mb-0
+                                | At BotForgeAI, we are committed to delivering measurable impact for our clients. Our solutions have helped businesses reduce operational costs, improve customer satisfaction, and accelerate digital transformation. We continuously innovate to ensure our clients stay ahead in a rapidly evolving technological landscape.
+
+            //- // Team members section
+            //- section.py-5.bg-light
+            //-     .container.px-5.my-5
+            //-         .text-center
+            //-             h2.fw-bolder Meet Our Team
+            //-             p.lead.fw-normal.text-muted.mb-5 Passionate innovators dedicated to your success
+            //-         .row.gx-5.row-cols-1.row-cols-sm-2.row-cols-xl-4.justify-content-center
+            //-             .col.mb-5.mb-5.mb-xl-0
+            //-                 .text-center
+            //-                     img.img-fluid.rounded-circle.mb-4.px-4(src='assets/team_ceo.jpg', alt='Rohit Sharma')
+            //-                     h5.fw-bolder Rohit Sharma
+            //-                     .fst-italic.text-muted Founder &amp; CEO
+            //-             .col.mb-5.mb-5.mb-xl-0
+            //-                 .text-center
+            //-                     img.img-fluid.rounded-circle.mb-4.px-4(src='assets/team_cfo.jpg', alt='Priya Verma')
+            //-                     h5.fw-bolder Priya Verma
+            //-                     .fst-italic.text-muted CFO
+            //-             .col.mb-5.mb-5.mb-sm-0
+            //-                 .text-center
+            //-                     img.img-fluid.rounded-circle.mb-4.px-4(src='assets/team_ops.jpg', alt='Amit Patel')
+            //-                     h5.fw-bolder Amit Patel
+            //-                     .fst-italic.text-muted Operations Manager
+            //-             .col.mb-5
+            //-                 .text-center
+            //-                     img.img-fluid.rounded-circle.mb-4.px-4(src='assets/team_cto.jpg', alt='Sneha Gupta')
+            //-                     h5.fw-bolder Sneha Gupta
+            //-                     .fst-italic.text-muted CTO
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug
